@@ -9,19 +9,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jakekara/margo-tree-model-ts.git"
+    "url": "git+https://github.com/jakekara/margo-tree-model.git"
   },
   "author": "jake kara",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/jakekara/margo-tree-model-ts/issues"
+    "url": "https://github.com/jakekara/margo-tree-model/issues"
   },
-  "homepage": "https://github.com/jakekara/margo-tree-model-ts#readme",
+  "homepage": "https://github.com/jakekara/margo-tree-model#readme",
   "dependencies": {
     "@babel/core": "^7.12.3",
     "@babel/preset-env": "^7.12.1",
     "@babel/preset-typescript": "^7.12.1",
+    "@jupyterlab/cells": "^2.2.7",
+    "@jupyterlab/notebook": "^2.2.7",
     "babel-jest": "^26.6.3",
+    "margo-parser-ts": "file:../margo-parser-ts",
     "webpack": "^5.4.0",
     "webpack-cli": "^4.2.0"
   },
