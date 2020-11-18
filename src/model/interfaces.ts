@@ -8,7 +8,3 @@ export interface IMargoTreeCellModel {
 export interface IMargoTreeNotebookModel {
     cells: Array<IMargoTreeCellModel>
 }
-
-
-
-

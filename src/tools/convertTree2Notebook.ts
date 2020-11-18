@@ -1,6 +1,6 @@
-import { ICellModel } from '../../node_modules/@jupyterlab/cells/lib/model'
+import { ICellModel } from '@jupyterlab/cells/lib/model'
 import { INotebookModel } from '@jupyterlab/notebook/lib/model'
-import { IMargoTreeNotebookModel } from './interfaces'
+import { IMargoTreeNotebookModel } from '../model/interfaces'
 
 
 /**
@@ -15,7 +15,7 @@ function getEmptyTreeNotebook(): IMargoTreeNotebookModel {
  * @param {INotebookModel} notebookModel: The original notebook model
  * @returns {IMargoTreeCellModel}: The tree representation
  */
-export function fromNotebookModel(notebookModel: INotebookModel): IMargoTreeNotebookModel {
+export function convertMTM2Notebook(notebookModel: INotebookModel): IMargoTreeNotebookModel {
 
     let ret = getEmptyTreeNotebook()
 

@@ -1,4 +1,4 @@
-import { getCellID } from '../src/MargoTreeModel/MargoTreeCellTools'
+import { getCellID } from '../src/tools/getCellID'
 
 test("Can parse cell ID", () => {
 
